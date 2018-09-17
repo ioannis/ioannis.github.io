@@ -94,7 +94,7 @@
 
 			for (var i = 0; i < 10; i++) {
 				mesh = new THREE.Mesh( geometry, material );
-				mesh.position.set( 0 , 0, 0 );
+				mesh.position.set( 10 , 0, 0 );
 				mesh.scale.set( 0.0025, 0.0025, 0.0025 )
 				scene.add( mesh );
 			}
@@ -102,7 +102,7 @@
       var material = new THREE.MeshPhongMaterial({
         color: 0xffffff,
         specular: 0xffffff,
-        shininess: 20,
+        shininess: 5,
         shading: THREE.FlatShading,
         map: texture
       });
